@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+bun.lock
+bun.lockb
+
+# Data written by local runs
+/data/
+*.parquet
+!pipeline/**/fixtures/*.parquet
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.zed/

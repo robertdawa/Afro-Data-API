@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f1f8f4;
+  --color-brand-100: #dcefe3;
+  --color-brand-500: #2f8f5b;
+  --color-brand-600: #237347;
+  --color-brand-700: #1c5b39;
+  --color-ochre-500: #c98a2b;
+}
+
+:root {
+  color-scheme: light dark;
+}
